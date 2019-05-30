@@ -2,7 +2,7 @@
   "name": "my-portfolio",
   "version": "1.0.0",
   "description": "bXr portfolio",
-  "main": "index.js",
+  "main": "src/server.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/BRichie/portfolio.git"
@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "dotenv": "^5.0.0",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1"
   }
 }
