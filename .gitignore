@@ -1,2 +1,7 @@
 /node_modules
 .env
+.sass-cache
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/
+dist/

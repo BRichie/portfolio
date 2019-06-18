@@ -14,14 +14,36 @@
   "author": "bxr",
   "license": "ISC",
   "devDependencies": {
+    "gulp": "^4.0.2",
     "jasmine": "^3.4.0",
     "request": "^2.88.0"
   },
   "dependencies": {
+    "bootstrap": "^4.3.1",
     "dotenv": "^5.0.0",
     "ejs": "^2.5.7",
     "express": "^4.17.1",
-    "gulp": "^4.0.2",
-    "nodemon": "^1.19.1"
-  }
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "jquery": "^3.4.1",
+    "nodemon": "^1.19.1",
+    "popper.js": "^1.15.0"
+  },
+
+  "browserslist": [
+    "last 1 major version",
+    ">= 1%",
+    "Chrome >= 45",
+    "Firefox >= 38",
+    "Edge >= 12",
+    "Explorer >= 10",
+    "iOS >= 9",
+    "Safari >= 9",
+    "Android >= 4.4",
+    "Opera >= 30"
+  ]
 }
